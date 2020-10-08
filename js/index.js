@@ -8,7 +8,7 @@ const secsSpanRef = document.querySelector('[data-value="secs"]');
 
 setInterval(() => {
     const currerntDate = Date.now();
-    const deltaTime = targetDate-currerntDate;
+    const deltaTime = targetDate - currerntDate;
     updateClockFace(deltaTime);
 }, 1000);
 
